@@ -881,4 +881,10 @@ export default function App() {
       <Route path="*" element={<Navigate to="/login" replace/>}/>
     </Routes>
   );
+<<<<<<< HEAD
 }
+=======
+}
+
+// Update frontend Sprint 1 
+>>>>>>> origin/fitur-frontend

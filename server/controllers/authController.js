@@ -131,6 +131,10 @@ exports.register = async (req, res) => {
     console.error('Register error:', err.message);
     res.status(500).json({ message: 'Pendaftaran gagal. Periksa koneksi database.' });
   }
+<<<<<<< HEAD
 };
 
 // update backend untuk PR
+=======
+};
+>>>>>>> origin/fitur-frontend
