@@ -453,4 +453,20 @@ form label{
     .welcome-card{padding:22px;align-items:flex-start;gap:14px}
     .welcome-icon{width:48px;height:48px;flex-shrink:0}
     .welcome-card h1{font-size:22px}
-    .dash-header{padding-bottom:20px}}
+    .dash-header{padding-bottom:20px}
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-receipt, #printable-receipt * {
+    visibility: visible;
+  }
+  #printable-receipt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
